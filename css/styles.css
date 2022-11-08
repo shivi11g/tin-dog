@@ -1,0 +1,155 @@
+#title{
+    background-color: #ff4c68;
+  
+}
+.container-fluid{
+    /* margin-right: 3%; */
+   
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: white; 
+    font-weight: 900;
+    font-size: 3.5rem;
+    size: 3.5rem;
+    line-height: 1.5;
+}
+.db{
+    margin: auto 3%;
+    
+}
+.image{
+    width: 300px;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 20%;
+
+   
+    /* position: relative; */
+    /* left: 100px; */
+    
+
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    /* font-weight: 900; */
+   padding: 1% 8% 2%;
+}
+#features{
+    padding: 2% 10%;
+    position: relative;
+    /* bottom: 200px; */
+    z-index: 1;
+    background-color: white;
+}
+.box{
+   padding: 10%;
+   text-align: center;
+}
+.para{
+    /* width: 80%;
+    margin-left: 35px; */
+}
+.icons{
+    /* padding: 30px 30px 30px 30px; */
+    /* size: 50px; */
+    margin-bottom: 5%;
+    color: #ef8172
+      
+    /* text-align: center; */
+   
+}
+.icons:hover{
+    color: #ff4c68;;
+}
+
+
+body{
+    margin: 0;
+}
+#testimonials{
+    background-color: #ef8172;
+    padding: 10% 20% 10% 20%;
+    text-align: center;
+}
+.testimonial-img{
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px auto 5px auto;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.press-img{
+    width: 180px;
+    margin: 5px;
+
+}
+.head{
+    display: inline-block;
+}
+#pricing{
+    padding: 10%;
+    text-align: center;
+}
+.main_card{
+    text-align: center;
+}
+#title{
+    /* position: relative;
+    z-index: -1;
+    padding-bottom: 30px; */
+}
+
+@media (max-width: 1170px ) and (min-width: 1000px){
+    .image{
+      position: static;
+      transform: rotate(0);
+
+    }
+    .rowdiv1{
+        padding-bottom: 10%;
+        text-align: left;
+    }
+    .rowdiv2{
+        padding-left: 10%;
+    }
+    /* #title{
+        text-align: center;
+    } */
+    
+}
+#cta{
+    background-color: #ff4c68;
+    padding: 8%;
+    text-align: center;
+}
+#footer{
+    padding: 100px;
+    text-align: center; 
+    
+    /* padding: 5px; */
+}
+
+
+@media (max-width: 1000px){
+    .image{
+      position: static;
+      transform: rotate(0);
+
+    }
+    .rowdiv1{
+        padding-bottom: 10%;
+       
+    }
+    .rowdiv2{
+        padding-left: 10%;
+    }
+    #title{
+        text-align: center;
+    }
+    
+}
